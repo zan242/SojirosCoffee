@@ -61,6 +61,7 @@ img#welcomeCup {
     5% {width: 200px}
 }
 
+
 .navigationBar {
     overflow: hidden;
     background-color: rgba(24, 16, 8,1);
@@ -171,6 +172,10 @@ img#welcomeCup {
     padding-bottom: 12px;
 }
 
+#equalwidth {
+    width: 100%;
+}
+
 img#center {
     display: block;
     margin-left: auto;
@@ -197,4 +202,46 @@ img#center {
 #chemeximg {
     float: left;
     margin-right: 15px;
+}
+
+.offsetbg a {
+    color: rgba(24, 16, 8,1);
+}
+
+img#coffeeshelf {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 80%; 
+}
+
+#coffeebag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+}
+
+#largecoffeebag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+}
+
+#oncreamhead {
+    color: rgba(24, 16, 8,1);
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+#oncreamdescriptor {
+    color: rgba(24, 16, 8,1);
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+#imagewidth {
+    width: 50%;
 }

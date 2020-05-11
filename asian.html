@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+        <link rel="stylesheet" href="coffeeStyle.css">
+        <meta charset="utf-8">
+        <title>Coffee Varieites</title> 
+        <script src="coffeeScript.js" defer></script>
+    </head>
+
+    <body>
+        <div class="navigationBar">
+            <a href="homepage.html">Home</a>
+            <a href="coffeehistory.html">History of Coffee</a>
+            <div class="dropdown">
+                <form method="get" action="coffeevarieties.html">
+                    <button class="dropbtn">Coffee Varieties</button>
+                </form>    
+                <div class="vdropdown-content">
+                    <a href="american.html">American</a>
+                    <a href="african.html">African</a>
+                    <a href="asian.html">Asian</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <form method="post" action="brewcoffee.html">
+                    <button class="dropbtn">How to Brew Coffee</button>
+                </form>
+                <div class="bdropdown-content">
+                    <a href="#">Chemex</a>
+                    <a href="#">French Press</a>
+                    <a href="#">AeroPress</a>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="offsetbg">
+            <h1 id = "oncreamhead">Asian Coffee</h1>
+            <h3 id= "oncreamdescriptor">Asian Coffee is known for being earthy and chocolaty. It has the sweetest flavors out of the regions.</h3>
+            <div class="offsetflex">
+                <div class="offsetbggreen">
+                    <h2>Highwire Batak, Sumatra</h2>
+                    <p>
+                        This medium roast coffee has the common earthy and chocolaty notes found among asian coffees, but also has a hint of fruit. 
+                        The coffee has a very heavy body and is fairly acidic, which is pretty unique for a medium roast from Asia.
+                        You can buy it <a href="https://www.highwirecoffee.com/products/batak-sumatra">here.</a>
+                    </p>
+                </div>
+                <div class="offsetbgblue" id = imagewidth>
+                    <img id = "largecoffeebag" src="Images/sumatra.png" alt="Highwire Batak, Sumatra Bag" >
+                </div>
+            </div>
+            <div class="offsetflex">
+                <div class="offsetbgblue" id = imagewidth>
+                    <img id = "coffeebag" src="Images/theoblend.png" alt="Caffe Vita Theo Blend Bag" >
+                </div>
+                <div class="offsetbggreen">
+                    <h2>Caffe Vita Theo Blend</h2>
+                    <p>
+                        This blend has a very chocolaty flavor and aroma along with a little bit of frutiness and vanilla. It has a full body and
+                        is slighty acidic. This blend was developed with a chocolate company and as a result pairs very well with chocolate.
+                        You can buy it <a href="https://www.caffevita.com/products/theo-blend">here.</a>
+                    </p>
+                </div>
+            </div>
+            <div class="offsetflex">
+                <div class="offsetbggreen">
+                    <h2>Red Rooster Funky Chicken</h2>
+                    <p>
+                        This blend combines an earthy sweetness with some brightness and acidity to create a very complex flavor. It is a medium roast,
+                        but is brighter and full bodied, which are usually indicitave of light and dark roasts.
+                        You can buy it <a href="https://redroostercoffee.com/shop/coffees/all/funky-chicken-2">here.</a>
+                    </p>
+                </div>
+                <div class="offsetbgblue" id = imagewidth>
+                    <img id = "largecoffeebag" src="Images/funkychicken.png" alt="Red Rooster Funky Chicken Bag" >
+                </div>
+            </div>
+            </div>
+        </div>
+        <p id = footer>
+            Created by Zain Hameed 2020
+        </p>    
+    </body>
+
+</html>
