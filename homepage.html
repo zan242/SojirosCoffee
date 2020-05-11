@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="coffeeStyle.css">
         <meta charset="utf-8">
         <title>Cafe Leblanc</title> 
+        <script src="coffeeScript.js" defer></script>
     </head>
 
     <body>
@@ -14,7 +15,7 @@
             <a href="homepage.html">Home</a>
             <a href="coffeehistory.html">History of Coffee</a>
             <div class="dropdown">
-                <form method="post" action="coffeevarieties.html">
+                <form method="get" action="coffeevarieties.html">
                     <button class="dropbtn">Coffee Varieties</button>
                 </form>    
                 <div class="vdropdown-content">
@@ -25,10 +26,10 @@
             </div>
             <div class="dropdown">
                 <form method="post" action="brewcoffee.html">
-                    <button class="dropbtn">How to Brew Coffee</button>
+                    <button class="dropbtn" id = bbutton>How to Brew Coffee</button>
                 </form>
                 <div class="bdropdown-content">
-                    <a href="#">Chemex</a>
+                    <a href="#">V60</a>
                     <a href="#">French Press</a>
                     <a href="#">AeroPress</a>
                 </div>
