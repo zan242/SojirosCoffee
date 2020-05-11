@@ -3,11 +3,12 @@
 <html>
     
     <head>
-        <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Didact%20Gothic' rel='stylesheet'>
         <link rel="stylesheet" href="coffeeStyle.css">
         <meta charset="utf-8">
         <title>Coffee History</title> 
         <script src="coffeeScript.js" defer></script>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
     </head>
 
     <body>
@@ -15,9 +16,7 @@
             <a href="homepage.html">Home</a>
             <a href="coffeehistory.html">History of Coffee</a>
             <div class="dropdown">
-                <form method="get" action="coffeevarieties.html">
-                    <button class="dropbtn">Coffee Varieties</button>
-                </form>    
+                <button class="dropbtn" id = vbutton>Coffee Varieties</button>   
                 <div class="vdropdown-content">
                     <a href="american.html">American</a>
                     <a href="african.html">African</a>
@@ -25,16 +24,14 @@
                 </div>
             </div>
             <div class="dropdown">
-                <form method="post" action="brewcoffee.html">
-                    <button class="dropbtn">How to Brew Coffee</button>
-                </form>
+                <button class="dropbtn" id = bbutton>How to Brew Coffee</button>
                 <div class="bdropdown-content">
-                    <a href="#">Chemex</a>
-                    <a href="#">French Press</a>
-                    <a href="#">AeroPress</a>
+                    <a href="pourover.html">Pour Over</a>
+                    <a href="frenchpress.html">French Press</a>
+                    <a href="aeropress.html">AeroPress</a>
                 </div>
             </div>
-        </div>  
+        </div> 
         
         <div class="offsetbg">
             <h1 id = "oncreamheader">History of Coffee</h1>
@@ -45,15 +42,15 @@
                         While the actual origin of coffee is debated, the earliest evidence of coffee was found in Yemen 
                         in the 14th century. Its popularity quickly spread through the neighboring Arabia and by the 15th
                         century, coffee houses dotted the countries. So much so that many governments temporarily banned coffee 
-                        because of the caffiene in it.
+                        because of the caffeine in it.
                     </p>
                     <p>
                         Coffee eventually spread to Turkey and through Istanbul made its foray in Europe. The earliest recorded evidence 
                         of coffee in Europe was Venice in the late 16th century. It made its way to England, France, and Germany along
-                        with many other European countiries in the next century.
+                        with many other European countries in the next century.
                     </p>
                     <p>
-                        Coffee reached the Americas during the European's colonization efforts. It first came to the Caribbean in the early
+                        Coffee reached the Americas during the European colonization efforts. It first came to the Caribbean in the early
                         18th century and quickly started to be grown there. Coffee became popular in North America after the Boston Tea
                         Party, since tea became seen as unpatriotic. In the 19th century, Brazil became the largest coffee producer in the world
                         and it still is today.

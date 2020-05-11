@@ -3,11 +3,12 @@
 <html>
     
     <head>
-        <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Didact%20Gothic' rel='stylesheet'>
         <link rel="stylesheet" href="coffeeStyle.css">
         <meta charset="utf-8">
         <title>Coffee Varieites</title> 
         <script src="coffeeScript.js" defer></script>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
     </head>
 
     <body>
@@ -15,9 +16,7 @@
             <a href="homepage.html">Home</a>
             <a href="coffeehistory.html">History of Coffee</a>
             <div class="dropdown">
-                <form method="get" action="coffeevarieties.html">
-                    <button class="dropbtn">Coffee Varieties</button>
-                </form>    
+                <button class="dropbtn" id = vbutton>Coffee Varieties</button>   
                 <div class="vdropdown-content">
                     <a href="american.html">American</a>
                     <a href="african.html">African</a>
@@ -25,16 +24,14 @@
                 </div>
             </div>
             <div class="dropdown">
-                <form method="post" action="brewcoffee.html">
-                    <button class="dropbtn">How to Brew Coffee</button>
-                </form>
+                <button class="dropbtn" id = bbutton>How to Brew Coffee</button>
                 <div class="bdropdown-content">
-                    <a href="#">Chemex</a>
-                    <a href="#">French Press</a>
-                    <a href="#">AeroPress</a>
+                    <a href="pourover.html">Pour Over</a>
+                    <a href="frenchpress.html">French Press</a>
+                    <a href="aeropress.html">AeroPress</a>
                 </div>
             </div>
-        </div>  
+        </div> 
         
         <div class="offsetbg">
             <h1 id = "oncreamhead">American Coffee</h1>
@@ -69,7 +66,7 @@
                 <div class="offsetbggreen">
                     <h2>PT's Flatlander Signature Blend</h2>
                     <p>
-                        This South American Blend has a nutty, dark choclaty flavor and has a strong bittersweet chocolate aroma.
+                        This South American Blend has a nutty, dark chocolaty flavor and has a strong bittersweet chocolate aroma.
                         It's a medium roast, but the flavor of the coffee still comes through and mixes well with the flavor of the roast.
                         You can buy it <a href="https://www.ptscoffee.com/products/flatlander">here.</a>
                     </p>
