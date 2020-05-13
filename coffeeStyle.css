@@ -172,7 +172,7 @@ img#welcomeCup {
     padding-bottom: 12px;
 }
 
-#equalwidth {
+#equalwidth1, #equalwidth2 {
     width: 100%;
 }
 
@@ -218,14 +218,14 @@ img#coffeeshelf {
     width: 80%; 
 }
 
-#coffeebag {
+#coffeebag1, #coffeebag2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%; 
 }
 
-#largecoffeebag {
+#largecoffeebag1, #largecoffeebag2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -244,9 +244,48 @@ img#coffeeshelf {
     margin-top: 0px;
 }
 
-#imagewidth {
+#imagewidth1, #imagewidth2, #imagewidth3 {
     width: 50%;
 }
+
+img#pourovercenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 90%; 
+}
+
+.smalllist {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.smalllist li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.procon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.brewlinks a {
+    color: rgba(226, 217, 196, 1);
+}
+
+#smallcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; 
+}
+
+::selection {
+    color: rgba(226, 217, 196, 1);
+    background: rgba(43,29,14,1);
+  }
 
 @media (max-width: 850px) {
     .offsetbg {
@@ -287,14 +326,25 @@ img#coffeeshelf {
     }
 
     .navigationBar a {
-        padding: 12px 120px;
-    }   
+        text-align: left;
+        font-size: 1.5em;
+    }  
+    
+    .navigationBar button {
+        text-align: left;
+        font-size: 1.5em;
+    }  
+    
+    .dropdown .dropbtn {
+        font-size: 1.5em;
+    }
     
     #oncreamhead, #oncreamdescriptor {
         text-align: left;
+        margin-left: 3px;
     }
 
-    #coffeebag, #largecoffeebag {
+    #coffeebag1, #coffeebag2, #largecoffeebag1, #largecoffeebag2 {
         display: none;
     }
 
